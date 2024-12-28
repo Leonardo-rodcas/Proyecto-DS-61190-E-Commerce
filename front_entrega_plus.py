@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 data = {
     'Mes':['Enero', 'Febrero'],
@@ -10,10 +10,10 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 df.plot(kind='line', x='Mes', y='Ventas', marker='o', title='Ventas Mensuales')
-plt.ylabel('Ventas en Pesos')
-plt.xlabel('Mes')
-plt.grid(True)  
-plt.show()  
+#plt.ylabel('Ventas en Pesos')
+#plt.xlabel('Mes')
+#plt.grid(True)  
+#plt.show()  
 
 #st.write("""
 # Mi primera aplicación interactiva
