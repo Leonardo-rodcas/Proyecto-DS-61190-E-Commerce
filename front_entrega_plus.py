@@ -9,7 +9,7 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
-df.plot(kind='line', x='Mes', y='Ventas', marker='o', title='Ventas Mensuales')
+#df.plot(kind='line', x='Mes', y='Ventas', marker='o', title='Ventas Mensuales')
 #plt.ylabel('Ventas en Pesos')
 #plt.xlabel('Mes')
 #plt.grid(True)  
